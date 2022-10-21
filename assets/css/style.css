@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: karla;
-}
+} 
 
 @font-face {
     font-family: karla;
@@ -18,7 +18,7 @@ body {
     width: 100vw;
 }
 
-#b {
+main {
     width: 100vw;
 
     display: flex;
@@ -71,9 +71,8 @@ h5 {
 }
 
 @media only screen and (min-width:600px) {
-    div {
+    main {
         width: 100vw;
-
         /* display: flex;
         justify-content: center;
         align-items: center;
@@ -299,26 +298,7 @@ strong{
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-/*============================================
-*/
-#OBEN{
-    position:absolute;
-  left: 0;
-  
-}
 header {
- margin-bottom: 5rem;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -335,7 +315,7 @@ header ul li {
 
 header ul li a {
     text-decoration: none;
-    color: #959494;
+    color: #646363;
     font-size: 15px;
     font-family: sans-serif;
 }
@@ -343,8 +323,6 @@ header ul li a {
 header div {
     display: none;
     flex-direction: column;
-    gap: 0;
-    right: 0;
     margin: 2vh 20px 2vh 0;
 }
 
@@ -358,24 +336,24 @@ header div span {
 }
 
 header nav ol {
+    padding-top: 1.5rem;
+  gap: 2rem;
+background-color: rgb(255, 255, 255);
     position: fixed;
-background-color: #ffffff;
     top: 0;
     /* left: 0; */
     right: -100%;
-    bottom: 90%;
+    bottom: 90;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     list-style: none;
-    word-spacing: 1rem;
     transition: all 0.5s linear;
-    gap: 1.5rem;
 }
 
 header nav ol a {
-    color: rgb(170, 170, 170);
+    color: rgb(0, 0, 0);
     font-size: 15px;
     text-decoration: none;
 }
